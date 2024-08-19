@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000;
+}
+.container{
+    position: relative;
+    width: 65vw;
+    height: 37.5vw;
+}
+
+.instrument {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.c_cymbal {
+    z-index: 2;
+    left: 9vw;
+    top: 4vw;
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(241, 209, 67);
+}
+
+.r_cymbal {
+    z-index: 2;
+    right: 4vw;
+    top: 1vw;
+    width: 20vw;
+    height: 20vw;
+    background-color: rgb(241, 209, 67);
+}
+
+.h_cymbal {
+    z-index: 2;
+    left: 2vw;
+    top: 15vw;
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(241, 209, 67);
+}
+
+.tom_one{
+    z-index: 1;
+    width: 12vw;
+    height: 12vw;
+    left: 20vw;
+    top: 10vw;
+    background-color: rgb(217, 229, 242);
+}
+
+.tom_two{
+    z-index: 1;
+    width: 12vw;
+    height: 12vw;
+    left: 32vw;
+    top: 10vw;
+    background-color: rgb(217, 229, 242);
+}
+.tom_f{
+    z-index: 1;
+    width: 16vw;
+    height: 16vw;
+    right: 8vw;
+    top: 19vw;
+    background-color: rgb(217, 229, 242);
+}
+
+.snare{
+    z-index: 1;
+    width: 11vw;
+    height: 11vw;
+    left: 12vw;
+    top: 20vw;
+    background-color: rgb(217, 229, 242);
+}
+.bass{
+    width: 20vw;
+    height: 11vw;
+    border-radius: 20px;
+    left: 22vw;
+    top: 20vw;
+    background-color: rgb(117, 120, 123);
+}
